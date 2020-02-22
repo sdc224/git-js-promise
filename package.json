@@ -8,7 +8,8 @@
 		"test": "echo \"Error, no test specified\" && exit 1",
 		"format": "prettier --ignore-path .eslintignore --write \"src/**/*.ts\"",
 		"lint": "eslint . --cache --ext .ts",
-		"lint-fix": "tsc --noEmit && eslint \"*/**/*.ts\" --cache --quiet --fix"
+		"lint-fix": "tsc --noEmit && eslint \"*/**/*.ts\" --cache --quiet --fix",
+		"start": "ts-node example.ts"
 	},
 	"repository": {
 		"type": "git",
@@ -27,12 +28,14 @@
 	},
 	"homepage": "https://github.com/sdc224/git-js-promise#readme",
 	"devDependencies": {
+		"@types/node": "^13.7.4",
 		"@typescript-eslint/eslint-plugin": "^2.20.0",
 		"@typescript-eslint/parser": "^2.20.0",
 		"eslint": "^6.8.0",
 		"eslint-config-prettier": "^6.10.0",
 		"eslint-plugin-prettier": "^3.1.2",
 		"prettier": "^1.19.1",
+		"ts-node": "^8.6.2",
 		"typescript": "^3.8.2"
 	},
 	"dependencies": {
