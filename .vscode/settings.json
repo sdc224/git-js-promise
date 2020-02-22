@@ -1,0 +1,29 @@
+{
+	"files.associations": {
+		".babelrc": "jsonc",
+		".eslintrc": "jsonc",
+		".prettierrc": "jsonc",
+
+		".stylelintrc": "json",
+
+		".dockerignore": "ignore",
+		".eslintignore": "ignore"
+	},
+
+	"javascript.validate.enable": false,
+	"javascript.format.enable": false,
+	"typescript.validate.enable": true,
+	"typescript.format.enable": true,
+
+	"search.exclude": {
+		".git": true,
+		".eslintcache": true,
+		"lib": true,
+		"bower_components": true,
+		"node_modules": true,
+		"npm-debug.log.*": true,
+		"test/**/__snapshots__": true,
+		"yarn.lock": true
+	},
+	"typescript.tsdk": "node_modules\\typescript\\lib"
+}
