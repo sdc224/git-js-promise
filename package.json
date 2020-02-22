@@ -1,0 +1,25 @@
+{
+	"name": "git-js-promise",
+	"version": "1.0.0",
+	"description": "A native git module for nodejs, with Promise and progress",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sdc224/git-js-promise.git"
+	},
+	"keywords": [
+		"git",
+		"nodejs",
+		"promise",
+		"progress"
+	],
+	"author": "sdc224",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/sdc224/git-js-promise/issues"
+	},
+	"homepage": "https://github.com/sdc224/git-js-promise#readme"
+}
